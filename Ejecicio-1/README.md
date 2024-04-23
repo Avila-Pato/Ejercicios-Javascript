@@ -9,11 +9,11 @@
 ## objeto [value]=objeto[value] || [];
 *objeto[value] <=  intenta acceder a la funcion value 
 *=objeto[value] || [] <=se utiliza el operador logico ('||') OR, entonces si objeto(value) es "undefined". "null" devuele el 2 operando que es el array vacio ('[]')
-#objeto[value].push(value);
+# objeto[value].push(value);
 *objeto[value] <= esto accede a la funcion value dentro del objeto
-#.push.(value)
+# .push.(value)
 *nos dara un registro de cuantas veces aparece cada valor en el arreglo gifts
-#if(objeto[value].length === 2 )
+# if(objeto[value].length === 2 )
 *objeto[value].length === 2 
 *verifica si el array asociado a la clase 'value' se ha repetido 2 veces en el arreglo 'gifts', si la condicioj cumple es decir si objeto(value).length === 2 la funcion FindFirstRepeated devuelve ese valor 'value a un return e indicara que se ha encontrado el primer valor que se repite'
 *si no se encuentra ningun valor que se repita por 2 vez despues de recorer el arreglo gifts la funcion return -1 indicara que no se ha encontrado nada..
