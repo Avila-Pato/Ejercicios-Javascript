@@ -1,4 +1,4 @@
-# Ejercicio nivel facil ###(Comentado ) ###
+# Ejercicio nivel facil **(Comentado )**
 
 ## Function FindFirstRepeated(gifts)
 * se crea la funcion FindFirstRepeated(gifts) con el arreglo(gifts)
