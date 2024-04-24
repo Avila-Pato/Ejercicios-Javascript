@@ -1,6 +1,6 @@
-Enumeramos los tipos de datos que hay en JavaScript, incluso los más actuales, para que entiendas las bases de este lenguaje de programación.
+# Enumeramos los tipos de datos que hay en JavaScript, incluso los más actuales, para que entiendas las bases de este lenguaje de programación.
 
-El último estándar ECMAScript define nueve tipos.
+### El último estándar ECMAScript define nueve tipos.
 ```Javascript
 Seis tipos de datos primitivos, controlados por el operador typeof:
 
