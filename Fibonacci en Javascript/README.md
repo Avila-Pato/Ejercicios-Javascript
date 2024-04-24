@@ -6,7 +6,8 @@
 
           Solución recursiva
 
-* La solución recursiva es la forma más intuitiva de calcular la sucesión de Fibonacci, pero no es la más eficiente en términos de optimización. Aquí está el código de la solución recursiva:
+* La solución recursiva es la forma más intuitiva de calcular la sucesión de Fibonacci, pero no es la más eficiente en
+ términos de optimización. Aquí está el código de la solución recursiva:
 
 
 const fibonacciRecursive = n => {
@@ -20,7 +21,8 @@ const fibonacciRecursive = n => {
 
          Solución iterativa
 
-* Para mejorar la eficiencia, podemos usar una solución iterativa que utiliza un bucle para calcular los números de Fibonacci. Aquí está el código de la solución iterativa:
+* Para mejorar la eficiencia, podemos usar una solución iterativa que utiliza un bucle para calcular los números de
+Fibonacci. Aquí está el código de la solución iterativa:
 
 
 const fibonacciIterative = n => {
