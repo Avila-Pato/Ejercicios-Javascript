@@ -2,9 +2,6 @@
 
 ### Este código demuestra cómo realizar una operación de unión interna (inner join) entre dos conjuntos de datos en JavaScript. La unión interna combina elementos de dos conjuntos de datos basándose en una clave común.
 
-* Propósito
-El propósito de este código en el contexto de una prueba técnica de JavaScript es evaluar varias habilidades y competencias del candidato, incluyendo:
-
 - Comprensión de la lógica de programación: La prueba evalúa si el candidato puede comprender y escribir un algoritmo para realizar una operación de unión interna entre dos conjuntos de datos basándose en una clave común.
 - Habilidad para trabajar con objetos y arreglos: Al manipular y combinar datos almacenados en forma de objetos y arreglos, la prueba verifica la capacidad del candidato para trabajar con estructuras de datos complejas en JavaScript.
 - Conocimiento de funciones de JavaScript: La función innerJoin es un ejemplo de una función que toma parámetros y realiza un procesamiento sobre ellos. La prueba evalúa si el candidato puede crear y usar funciones en JavaScript de manera efectiva.
