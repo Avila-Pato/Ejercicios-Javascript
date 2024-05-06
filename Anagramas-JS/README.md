@@ -1,4 +1,4 @@
-# Verificadondo con Anagramas
+# Verificando con Anagramas
 
 Este repositorio contiene tres métodos diferentes para verificar si dos palabras son anagramas en JavaScript.
 
