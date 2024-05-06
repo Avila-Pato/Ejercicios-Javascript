@@ -34,7 +34,8 @@ console.log(areAnagrama1('pato', 'aotp')); // false
 
 
 Método 2: Contando la frecuencia de letras
-La función areAnagrama2 cuenta la frecuencia de cada letra en ambas palabras y luego verifica si tienen la misma cantidad de cada letra.
+La función areAnagrama2 cuenta la frecuencia de cada letra en ambas palabras y luego verifica si tienen
+ la misma cantidad de cada letra.
 
 function areAnagrama2(word1, word2) {
     if (word1.length !== word2.length) {
@@ -63,7 +64,8 @@ console.log(areAnagrama2('holae', 'aolDah')); // false
 console.log(areAnagrama2('pato', 'aotp')); // false
 
 Método 3: Mapa de frecuencia de letras
-La función areAnagrama3 utiliza un mapa para registrar la frecuencia de cada letra en ambas palabras y luego verifica si los mapas son iguales.
+La función areAnagrama3 utiliza un mapa para registrar la frecuencia de cada letra en ambas palabras y luego
+ verifica si los mapas son iguales.
 
 function hasMap(string) {
     let mappedObj = {};
