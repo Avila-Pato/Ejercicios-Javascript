@@ -7,7 +7,7 @@ La función `reverseString` toma una cadena como entrada y devuelve la misma cad
 ```javascript
 // Los índices en JavaScript de atrás comienzan en -1
 
-// La siguiente función script2 invierte una cadena.
+// La siguiente función string2 invierte una cadena.
 function reverseString(str) {
     // Aquí se declara una variable llamada result y se inicializa como una cadena vacía.
     // Esta variable será utilizada para almacenar la cadena invertida.
