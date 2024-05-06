@@ -33,3 +33,7 @@ function intersectionString(str1, str2) {
     // Devuelve la intersección de caracteres.
     return intersection;
 }
+
+// Ejemplo de uso de la función intersectionString
+console.log(intersectionString('maicol', 'patricio')); // Resultado: 'aico'
+
