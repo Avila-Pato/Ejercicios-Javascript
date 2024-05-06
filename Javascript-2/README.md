@@ -8,6 +8,7 @@
 - Capacidad para realizar pruebas unitarias: La aserción al final del código es una forma de prueba unitaria para verificar si la función innerJoin produce el resultado esperado. Esto muestra si el candidato comprende la importancia de las pruebas y puede implementarlas correctamente.
 - Entendimiento de módulos y manejo de excepciones: El código utiliza el módulo assert de Node.js para realizar una aserción e imprimir resultados en la consola. Esto evalúa si el candidato comprende cómo usar módulos en JavaScript y manejar excepciones adecuadamente.
 
+~~~ javascript
 // Importamos la función de aserción desde el módulo 'assert' de Node.js
 import assert from 'node:assert/strict';
 
