@@ -1,4 +1,4 @@
-// Identificando caractares entre Ambos osea cuales tienen en comun
+// Identificando caractares entre Ambos osea cual letra tienen en comun
 
 function intersectionString (str1, str2) {
     let intersection = '';
