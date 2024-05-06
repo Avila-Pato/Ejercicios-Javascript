@@ -86,10 +86,10 @@ assert.deepStrictEqual(result, expectedOutput);
 
 En este código:
 
-directory representa un conjunto de datos de personas.
-userRegistrations representa un conjunto de registros de usuarios.
-a y b son arreglos de ejemplo utilizados para probar la función innerJoin.
-expectedOutput representa el resultado esperado de la unión interna entre los arreglos a y b.
-innerJoin es una función que realiza una unión interna entre dos conjuntos de datos basados en una clave común.
-Se imprime en consola la información de directory y userRegistrations, junto con la clave 'name'.
-Se llama a la función innerJoin con los arreglos a y b, y se verifica si el resultado coincide con expectedOutput.
+-- directory representa un conjunto de datos de personas.
+-- userRegistrations representa un conjunto de registros de usuarios.
+-- a y b son arreglos de ejemplo utilizados para probar la función innerJoin.
+-- expectedOutput representa el resultado esperado de la unión interna entre los arreglos a y b.
+-- innerJoin es una función que realiza una unión interna entre dos conjuntos de datos basados en una clave común.
+-- Se imprime en consola la información de directory y userRegistrations, junto con la clave 'name'.
+ --Se llama a la función innerJoin con los arreglos a y b, y se verifica si el resultado coincide con expectedOutput.
