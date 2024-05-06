@@ -61,3 +61,32 @@ function areAnagrama2(word1, word2) {
 console.log(areAnagrama2('hola', 'olah')); // true
 console.log(areAnagrama2('holae', 'aolDah')); // false
 console.log(areAnagrama2('pato', 'aotp')); // false
+
+Método 3: Mapa de frecuencia de letras
+La función areAnagrama3 utiliza un mapa para registrar la frecuencia de cada letra en ambas palabras y luego verifica si los mapas son iguales.
+
+function hasMap(string) {
+    let mappedObj = {};
+    for (let i of string) {
+        if(mappedObj[i] === undefined) mappedObj[i] = 1;
+        else mappedObj[i]++;
+    }
+    return mappedObj;
+}
+
+function areAnagrama3(string1, string2) {
+    if (string1.length !== string2.length) return false;
+
+    let mappedObj1 = hasMap(string1);
+    let mappedObj2 = hasMap(string2);
+
+    for (let key in mappedObj1) {
+        if (mappedObj1[key] !== mappedObj2[key]) return false;
+    }
+    return true;
+}
+
+console.log(areAnagrama3('hola', 'olah')); // true
+console.log(areAnagrama3('holae', 'aolDah')); // false
+console.log(areAnagrama3('pato', 'aotp')); // false
+
