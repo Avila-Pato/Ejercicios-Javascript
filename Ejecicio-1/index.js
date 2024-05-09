@@ -5,7 +5,8 @@ function findFirstRepeated(gifts) {
 for(const value of gifts){
     // se inicia un bucle que itenera sobre el parametro gifts
   if (objeto[value]) {
-    // si  dentro del regalo actual 'value' se encuentra en objeto  significa que encontro el regalo repetido, devolviendo ese regalo como el primer regalo encontrado
+    // si  dentro del regalo actual 'value' ya esta precente como propiedad objeto, significa que encontro el regalo repetido, devolviendo ese regalo como 
+      // el primer regalo encontrado
     return value 
   } else {
     objeto[value] = true
