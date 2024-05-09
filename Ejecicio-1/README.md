@@ -1,19 +1,22 @@
-# Ejercicio nivel facil **(Comentado)**
+En la fábrica de juguetes del Polo Norte, cada juguete tiene un número de identificación único.
 
-## Function FindFirstRepeated(gifts)
-* se crea la funcion FindFirstRepeated(gifts) con el arreglo(gifts)
-## const objeto = {};
-* se crea un objeto vacio llamado objeto que se usa para mantener registros de los valores y ocurrencias
-## for (const value of gifts) {...}
-* inicia un ciclo (for..of) que recorre cada elemento del arreglo gifts en cada iteracion, value tomara el valor del elemento actual del arreglo
-## objeto [value]=objeto[value] || [];
-*objeto[value] <=  intenta acceder a la funcion value 
-*=objeto[value] || [] <=se utiliza el operador logico ('||') OR, entonces si objeto(value) es "undefined". "null" devuele el 2 operando que es el array vacio ('[]')
-## objeto[value].push(value);
-*objeto[value] <= esto accede a la funcion value dentro del objeto
-## .push.(value)
-*nos dara un registro de cuantas veces aparece cada valor en el arreglo gifts
-## if(objeto[value].length === 2 )
-*objeto[value].length === 2 
-*verifica si el array asociado a la clase 'value' se ha repetido 2 veces en el arreglo 'gifts', si la condicioj cumple es decir si objeto(value).length === 2 la funcion FindFirstRepeated devuelve ese valor 'value a un return e indicara que se ha encontrado el primer valor que se repite'
-*si no se encuentra ningun valor que se repita por 2 vez despues de recorer el arreglo gifts la funcion return -1 indicara que no se ha encontrado nada..
+Sin embargo, debido a un error en la máquina de juguetes, algunos números se han asignado a más de un juguete.
+
+¡Encuentra el primer número de identificación que se ha repetido, donde la segunda ocurrencia tenga el índice más pequeño!
+
+En otras palabras, si hay más de un número repetido, debes devolver el número cuya segunda ocurrencia aparezca primero en la lista. Si no hay números repetidos, devuelve -1.
+
+const giftIds = [2, 1, 3, 5, 3, 2]
+const firstRepeatedId = findFirstRepeated(giftIds)
+console.log(firstRepeatedId) // 3
+// Aunque el 2 y el 3 se repiten
+// el 3 aparece primero por segunda vez
+
+const giftIds2 = [1, 2, 3, 4]
+const firstRepeatedId2 = findFirstRepeated(giftIds2)
+console.log(firstRepeatedId2) // -1
+// Es -1 ya que no se repite ningún número
+
+const giftIds3 = [5, 1, 5, 1]
+const firstRepeatedId3 = findFirstRepeated(giftIds3)
+console.log(firstRepeatedId3) // 5
