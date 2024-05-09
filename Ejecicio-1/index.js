@@ -11,7 +11,7 @@ for(const value of gifts){
       // el primer regalo encontrado
   } else {
     objeto[value] = true
-    //  si el regalo no se repite significa que es la primera vez que lo encontra a;adiensose el valor true , marcando como visto el objeto para futuras iteraciones
+    //  si el regalo no se repite  a;adiensose el valor true  significa que es la primera vez que lo encontra , marcando como visto el objeto para futuras iteraciones
   }
 }
 
