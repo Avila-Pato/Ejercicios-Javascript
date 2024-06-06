@@ -26,18 +26,42 @@ const carrito =
 for (let i = 0; i < carrito.length; i++) {
     console.log(carrito[i].nombre)
 }
-// while loop
+// while loop (revisa si se cumple esas condicion y luego ejecuta el codigo )
 
-// var i = 0;
-// while (i < 5) {
-//     console.log(i);
-//     i++;
-// }
+let i = 1;
+while (i < 20) {
+    if(i % 2 == 0) {
+        console.log(`El numero ${i} es Par`);
+    }
+    i++;
+}
+let x = 1;
+while(x < carrito.length){
+    console.log(carrito[x].nombre)
+    x++;
+}
 
-// // do while loop
+// do while loop(ejecuta el codigo al menos 1 vez y despues evalua )
 
-// var i = 0;
+let a = 0;
+do {
+    console.log(a);
+    i++;
+} while (a < 7);
+
+let b = 0;
+do {
+    console.log(b);
+    i++;
+} while (b < carrito); {
+    console.log(carrito[b].nombre)
+}
+
+// let c = 0;
 // do {
-//     console.log(i);
+//     console.log(c);
 //     i++;
-// } while (i < 7);
+// } while (c < 10);{
+//    if(c % 2 == 0){
+// }
+// }
