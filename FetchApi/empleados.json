@@ -1,0 +1,45 @@
+{
+    "empleados" : [
+      {
+        "nombre": "Juan Pérez",
+        "edad": 30,
+        "puesto": "Desarrollador Full Stack",
+        "lenguajes": ["JavaScript", "Python", "HTML", "CSS"],
+        "experiencia": "5 años",
+        "salario": "$60,000"
+      },
+      {
+        "nombre": "María García",
+        "edad": 28,
+        "puesto": "Ingeniera de Software",
+        "lenguajes": ["Java", "C++", "SQL"],
+        "experiencia": "4 años",
+        "salario": "$65,000"
+      },
+      {
+        "nombre": "Luis Hernández",
+        "edad": 32,
+        "puesto": "Arquitecto de Software",
+        "lenguajes": ["Ruby", "Scala", "JavaScript"],
+        "experiencia": "8 años",
+        "salario": "$80,000"
+      },
+      {
+        "nombre": "Ana Rodríguez",
+        "edad": 25,
+        "puesto": "Desarrolladora Frontend",
+        "lenguajes": ["HTML", "CSS", "JavaScript", "React"],
+        "experiencia": "3 años",
+        "salario": "$55,000"
+      },
+      {
+        "nombre": "Carlos Martínez",
+        "edad": 27,
+        "puesto": "Analista de Datos",
+        "lenguajes": ["Python", "R", "SQL"],
+        "experiencia": "4 años",
+        "salario": "$70,000"
+      }
+    ]
+  }
+  
